@@ -1,6 +1,14 @@
 public class Main {
+
   public static void main(String[]args){
     Calculator myCalculator = new Calculator();
-
+    System.out.println("The sum is " + myCalculator.add(5,8);
+    System.out.println("The difference is " + myCalculator.subtract(9,6);
+    System.out.println("The product is " + myCalculator.multiply(3,5);
+    System.out.println("The quotient is " + myCalculator.divide(9,4);
+    System.out.println("The square is " + myCalculator.square(5);
+    System.out.println("The cube is " + myCalculator.cube(3);
+    System.out.println("The result is " + myCalculator.exponent(2,4);
+    
   }
 }
