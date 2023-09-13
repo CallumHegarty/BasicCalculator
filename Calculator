@@ -1,4 +1,48 @@
 public class Calculator {
+  public Calculator(){
+    System.out.println("cookies");
+  }
 
+  public int add(int a, int b){
+    return a + b;
+  }
+
+  public int subtract(int a, int b){
+    int difference;
+    difference = a - b;
+    return difference;
+  }
+
+  public int multiply(int a, int b){
+    int product;
+    product = a * b;
+    return product;
+  }
+
+  public double divide(int a, int b){
+    double quotient;
+    quotient = a / b;
+    return quotient;
+  }
+
+  public int square(int a){
+    int square;
+    square = a*a;
+    return square;
+  }
+
+  public int cube(int a){
+    int cube;
+    square = a*a*a;
+    return cube;
+  }
+
+  public int exponent(int a, int b){
+    int result = a;
+    for(x=1;x<b;x++){
+      result=result*a;
+      }
+    return result;
+  }
 
 }
